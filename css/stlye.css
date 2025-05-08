@@ -1,0 +1,92 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #d3e3de;
+    text-align: center;
+
+}
+
+.img {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+#quiz {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #97baab;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #2b3d38;
+
+}
+#question {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#options {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #e1eff5;
+    color: #38444a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ffffff;
+
+}
+
+  div.percy img {
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+  }
+  ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #97baab;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #5d8071;
+  }
+  img.flag {
+    display: block;
+    width: 2%;
+    margin: auto;
+  }
+  .active {
+    background-color: #52ab85;
+  }
+  table {
+    width: 80%;
+    align-items: center;
+  }
